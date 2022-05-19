@@ -11,12 +11,9 @@
     $month = array ('January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September',
     'October', 'November', 'December');
 
-    sort($month);
-    $i = 0;
-    for($i = 0; $i <= 11; $i++)
-    {
-        echo $month[$i]. "\n";
-    }
+    $array = explode (separator, $string);
+    $string ='Jan-Feb-Mac-Apr-May';
+    $array = explode ('-', $string);
     ?>
 
     <?php
